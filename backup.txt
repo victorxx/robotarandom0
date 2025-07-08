@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encontre as últimas notícias sobre ferro e metais, e descubra como encontrar materiais para montar seu robô de robótica.">
+    <meta name="keywords" content="notícias ferro, metais, robótica, montagem de robô, peças robótica, ferro fundido, construção robô">
+    <meta name="author" content="Seu Nome ou Empresa">
+    <meta property="og:title" content="Notícias sobre Ferro, Metais e Robótica">
+    <meta property="og:description" content="Encontre as últimas notícias sobre ferro e metais, e descubra como encontrar materiais para montar seu robô de robótica.">
+    <meta property="og:image" content="caminho-para-imagem.jpg">
+    <meta property="og:url" content="https://www.seusite.com.br">
+    <title>Notícias sobre Ferro, Metais e Robótica</title>
+    <style>
+        /* CSS Interno - Estilo Básico */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        
+        header {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        nav {
+            background-color: #34495e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 10px 20px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            padding: 20px;
+        }
+        #ads {
+    font-family: 'Arial', Helvetica, sans-serif;
+    padding: 20px;
+    position: fixed;
+    top: 20px; /* Posiciona o anúncio a 20px do topo */
+    right: 20px; /* Posiciona o anúncio a 20px da borda direita */
+    background-color: #ffffff; /* Fundo branco */
+    color: #333333; /* Cor do texto mais suave para leitura */
+    border-radius: 10px; /* Bordas arredondadas para um visual mais moderno */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave ao redor para destacar */
+    max-width: 300px; /* Limita a largura para evitar que ocupe espaço excessivo */
+    z-index: 9999; /* Garante que o anúncio fique acima de outros elementos da página */
+    transition: transform 0.3s ease, opacity 0.3s ease; /* Efeito suave de transição */
+}
+
+#ads:hover {
+    transform: scale(1.05); /* Aumenta levemente o tamanho ao passar o mouse, criando um efeito interativo */
+}
+
+@media (max-width: 768px) {
+    #ads {
+        top: 10px; /* Menos espaço no topo para telas pequenas */
+        right: 10px; /* Menos espaço na direita para telas pequenas */
+        max-width: 250px; /* Diminuir a largura do anúncio em telas menores */
+    }
+}
+
+@media (max-width: 480px) {
+    #ads {
+        font-size: 14px; /* Reduz o tamanho da fonte em dispositivos móveis */
+        padding: 15px; /* Diminui o padding em dispositivos móveis */
+    }
+}
+
+
+        .article {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .article h2 {
+            color: #2c3e50;
+        }
+
+        .article p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Notícias sobre Ferro, Metais e Robótica</h1>
+        <p>Fique por dentro das últimas novidades sobre ferro, metais e como montar seu robô!</p>
+    </header>
+
+    <!-- Navegação -->
+    <nav>
+        <a href="#noticias">Notícias</a>
+        <a href="#robotica">Robótica</a>
+        
+    </nav>
+
+    <!-- Conteúdo Principal -->
+    <main>
+        <!-- Seção de Notícias -->
+        <section id="noticias">
+            <h2>Últimas Notícias sobre Ferro e Metais</h2>
+            <div id="noticias-container"></div>
+        </section>
+
+        <!-- Seção de Robótica -->
+        <section id="robotica">
+            <h2>Como Montar Seu Robô Usando Ferro e Metais</h2>
+            <article class="article">
+                <h2>Materiais Necessários para Construir um Robô Funcional</h2>
+                <p>Se você está começando no mundo da robótica, saber onde encontrar materiais para montar seu robô é essencial. Ferro, alumínio e aço inox são algumas das opções mais utilizadas por sua resistência e custo-benefício. Aqui estão as melhores dicas para você obter esses materiais e começar seu projeto.</p>
+            </article>
+
+            <article class="article">
+                <h2>Ferro e Metais na Robótica: Como Escolher as Peças Certas</h2>
+                <p>Ao montar um robô, é importante escolher as peças certas. Alguns metais são melhores para estruturas externas, enquanto outros são ideais para componentes internos. Vamos te ajudar a entender as melhores opções.</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer id="contato">
+        <p>©  Notícias de Ferro & Metais - Todos os direitos reservados.</p>
+        <p><a href="mailto:contato@seusite.com.br">Contato</a></p>
+    </footer>
+
+    <script>
+        // Array com as notícias
+        const noticias = [
+                             {
+                                titulo: "Ferro Fundido: Uma Revolução no Setor Metalúrgico",
+                                data: "10 de Julho, 2025",
+                                descricao: "O ferro fundido continua a ser um dos materiais mais importantes na construção de máquinas e robôs. Ele é essencial em indústrias como a automobilística e metalúrgica devido à sua durabilidade e resistência. Conheça mais sobre os tipos de ferro fundido e suas aplicações."
+                            },
+                            {
+                                titulo: "A Produção de Metais Preciosos e Suas Aplicações Tecnológicas",
+                                data: "12 de Julho, 2025",
+                                descricao: "Metais como ouro e prata não são apenas valiosos para joias, mas também desempenham um papel crucial em circuitos eletrônicos e dispositivos de robótica. Saiba como esses metais preciosos são extraídos e processados."
+                            },
+                            {
+                                titulo: "O Impacto do Aço Inoxidável na Indústria Automotiva",
+                                data: "14 de Julho, 2025",
+                                descricao: "O aço inoxidável tem sido um dos materiais mais utilizados na indústria automotiva devido à sua resistência à corrosão e durabilidade. Saiba mais sobre sua importância e os novos avanços na produção desse material."
+                            },
+                            {
+                                titulo: "Metais Inteligentes: O Futuro da Robótica",
+                                data: "16 de Julho, 2025",
+                                descricao: "Metais inteligentes têm a capacidade de mudar suas propriedades sob certos estímulos. Essa tecnologia está sendo explorada para criar robôs mais eficientes e adaptáveis."
+                            },
+                            {
+                                titulo: "Tecnologias Avançadas de Fundição de Ferro e Suas Aplicações",
+                                data: "18 de Julho, 2025",
+                                descricao: "A fundição de ferro tem evoluído significativamente, com novas tecnologias e processos que melhoram a qualidade do produto e reduzem os custos. Descubra as últimas inovações no setor."
+                            },
+                            {
+                                titulo: "Como o Alumínio Está Moldando a Indústria de Robótica",
+                                data: "20 de Julho, 2025",
+                                descricao: "O alumínio é um dos materiais mais utilizados na construção de robôs devido à sua leveza e resistência. Saiba como ele é aplicado em diferentes partes de um robô."
+                            },
+                            {
+                                titulo: "A Evolução dos Metais para a Impressão 3D",
+                                data: "22 de Julho, 2025",
+                                descricao: "Com a ascensão da impressão 3D, novos metais estão sendo desenvolvidos para serem utilizados nesse processo. Entenda as vantagens e desafios dessa tecnologia."
+                            },
+                            {
+                                titulo: "Ferro Fundido vs. Aço: Qual o Melhor Material para Máquinas Pesadas?",
+                                data: "24 de Julho, 2025",
+                                descricao: "Ferro fundido e aço têm propriedades distintas. Descubra qual material é mais adequado para a construção de máquinas pesadas e suas vantagens em diferentes condições."
+                            },
+                            {
+                                titulo: "Metais e Robótica: O Caminho para Robôs Autônomos",
+                                data: "26 de Julho, 2025",
+                                descricao: "Os robôs autônomos dependem de metais e materiais de alta precisão para garantir seu funcionamento eficiente. Conheça os materiais essenciais e como eles são usados para garantir a autonomia dos robôs."
+                            },
+                            {
+                                titulo: "Exploração de Minérios e o Futuro da Indústria Metalúrgica",
+                                data: "28 de Julho, 2025",
+                                descricao: "A exploração de novos minérios está no centro da indústria metalúrgica. Entenda como os avanços na mineração de ferro e outros metais estão moldando o futuro da produção de materiais."
+                            },
+                            {
+                                titulo: "Como os Metais Reciclados Estão Transformando a Indústria de Robótica",
+                                data: "30 de Julho, 2025",
+                                descricao: "O uso de metais reciclados na robótica não só reduz o impacto ambiental, mas também oferece vantagens em termos de custo e desempenho. Saiba como a reciclagem de metais está sendo aplicada na construção de robôs."
+                            },
+                            {
+                                titulo: "Ferro Fundido de Alta Resistência: O Futuro dos Componentes Robóticos",
+                                data: "01 de Agosto, 2025",
+                                descricao: "O ferro fundido de alta resistência está ganhando popularidade na fabricação de componentes robóticos. Descubra como ele pode ser usado para melhorar a durabilidade e a performance dos robôs."
+                            },
+                            {
+                                titulo: "O Papel do Titânio na Indústria Aerospacial e Robótica",
+                                data: "03 de Agosto, 2025",
+                                descricao: "O titânio é utilizado em ambientes de alta exigência, como a indústria aerospacial e a robótica. Sua resistência e leveza o tornam um material essencial para essas aplicações."
+                            },
+                            {
+                                titulo: "Futuro do Cobre na Robótica e Eletrônica",
+                                data: "05 de Agosto, 2025",
+                                descricao: "O cobre continua sendo um dos metais mais importantes para a eletrônica e robótica. Descubra as tendências emergentes no uso do cobre em novos dispositivos robóticos."
+                            },
+                            {
+                                titulo: "Inovações em Técnicas de Soldagem de Metais",
+                                data: "07 de Agosto, 2025",
+                                descricao: "A soldagem de metais tem sido uma das principais técnicas na fabricação de peças metálicas. Conheça as novas inovações em soldagem que estão permitindo a criação de componentes mais precisos e duráveis."
+                            },
+                            {
+                                titulo: "Robôs de Construção: Como os Metais Estão Revolucionando o Setor",
+                                data: "09 de Agosto, 2025",
+                                descricao: "A utilização de robôs na construção civil está aumentando. Saiba como os metais mais resistentes estão sendo aplicados para criar robôs mais eficazes no setor."
+                            },
+                            {
+                                titulo: "O Potencial do Aço Galvanizado na Robótica",
+                                data: "11 de Agosto, 2025",
+                                descricao: "O aço galvanizado oferece uma excelente resistência à corrosão, sendo ideal para aplicações de robótica em ambientes adversos. Conheça suas principais vantagens e aplicações."
+                            },
+                            {
+                                titulo: "Os Desafios do Processamento de Metais em Alta Temperatura",
+                                data: "13 de Agosto, 2025",
+                                descricao: "Processar metais em temperaturas extremas é um desafio técnico. Saiba como a indústria está superando os obstáculos do processamento de metais a altas temperaturas."
+                            },
+                            {
+                                titulo: "Como o Cobalto Está Impulsionando a Indústria de Baterias para Robôs",
+                                data: "15 de Agosto, 2025",
+                                descricao: "O cobalto é um componente chave nas baterias recarregáveis usadas em robôs. Entenda como esse metal está revolucionando o armazenamento de energia em dispositivos robóticos."
+                            },
+                            {
+                                titulo: "Novas Tendências no Processamento de Metais para Impressão 3D",
+                                data: "17 de Agosto, 2025",
+                                descricao: "A impressão 3D está sendo cada vez mais utilizada para criar peças metálicas. Saiba como as novas tendências no processamento de metais estão ampliando as possibilidades dessa tecnologia."
+                            },
+            {
+                titulo: "Ferro Fundido: Uma Revolução no Setor Metalúrgico",
+                data: "10 de Julho, 2025",
+                descricao: "O ferro fundido continua a ser um dos materiais mais importantes na construção de máquinas e robôs. Ele é essencial em indústrias como a automobilística e metalúrgica devido à sua durabilidade e resistência. Conheça mais sobre os tipos de ferro fundido e suas aplicações."
+            },
+            {
+                titulo: "Metais Preciosos: Onde Encontrá-los para Construção Robótica?",
+                data: "15 de Julho, 2025",
+                descricao: "Metais como ouro e prata são essenciais para a fabricação de circuitos e componentes eletrônicos de alta performance. Saiba onde encontrar esses metais preciosos para a construção do seu robô."
+            },
+            {
+                titulo: "A Inovação do Aço no Mundo da Robótica",
+                data: "20 de Julho, 2025",
+                descricao: "O aço continua sendo um dos materiais principais para a construção de robôs devido à sua resistência. Neste artigo, vamos explorar os diferentes tipos de aço usados em robótica e como escolher o melhor para o seu projeto."
+            }
+        ];
+
+        // Função para exibir as notícias dinamicamente
+        function exibirNoticias() {
+            const container = document.getElementById("noticias-container");
+
+            noticias.forEach(noticia => {
+                const artigo = document.createElement("article");
+                artigo.classList.add("article");
+
+                const titulo = document.createElement("h2");
+                titulo.textContent = noticia.titulo;
+
+                const data = document.createElement("p");
+                data.innerHTML = `<strong>Publicado em:</strong> ${noticia.data}`;
+
+                const descricao = document.createElement("p");
+                descricao.textContent = noticia.descricao;
+
+                artigo.appendChild(titulo);
+                artigo.appendChild(data);
+                artigo.appendChild(descricao);
+
+                container.appendChild(artigo);
+            });
+        }
+
+        // Chama a função para exibir as notícias
+        exibirNoticias();
+    </script>
+<div id="ads">
+    <a href="#" target="_blank" id="novo">
+        CONFERIR
+    </a>
+</div>
+<script>
+    function mudar(){
+        const links=[
+            "https://vendernainternet9.wordpress.com/vps-avancado/",
+             "https://wa.me/5527999860405?text=Olá%2C%20tenho%20interesse%20em%20soluções%20de%20VPS%20e%20ERP.%20Pode%20me%20ajudar%3F",
+                    "https://wa.me/5527999497001?text=ola%20quero%20saber%20sobre%20seguro%20e%20consorcio",
+                    "https://nandomoura01random.vercel.app/",
+                    "https://www.facebook.com/capixabadagemaes/",
+                    "https://www.youtube.com/@gamenologia/videos",
+                    "https://www.larissasaib.com.br/",
+                    "https://www.larissasaib.com.br/",
+                    "https://www.instagram.com/geocredibnkvitoria/",
+                    "https://www.youtube.com/watch?v=zjF_yzaEN9I&t=23s",
+                    "https://www.youtube.com/watch?v=JbWY7nvpBA0",
+                    "https://www.youtube.com/watch?v=qLsURrNcdf8",
+                    "https://vendernainternet9.wordpress.com/vps-avancado/",
+                    "https://www.youtube.com/@byclixmidia1008",
+                    "https://www.youtube.com/@gamenologia",
+                    "https://brasilbrasileiross.blogspot.com/",
+                    "https://geocredibnkvitoria.com/",
+                    "https://ocomerciobrasileironoticia.blogspot.com/2025/05/erp-profissional-para-empresas.html",
+                    "https://jogosantigos472302513.wordpress.com/maquinas-vps-temos-todas-as-opcoes-de-maqinas-para-voce/",
+                    "https://www.airbnb.com.br/r/saibvictore?s=6&t=061n0g",
+                    "https://hostinger.com.br/?REFERRALCODE=1VICTOR444",
+                    "https://www.youtube.com/watch?v=3yVwyfsq7ZQ",
+                    "https://www.youtube.com/@byclixmidia1008",
+                    "https://www.youtube.com/@victorfenix-s9o",
+                    "https://recomendadodia23.blogspot.com/",
+                    "https://brasilbrasileiross.blogspot.com/",
+                    "https://dokehost.blogspot.com/",
+                "https://dai.ly/k72EJDCuNTXzqLDntRs",
+                "https://www.youtube.com/watch?v=zjF_yzaEN9I&t=23s",
+                "https://www.youtube.com/watch?v=JbWY7nvpBA0",
+                "https://www.youtube.com/watch?v=qLsURrNcdf8",
+                "https://www.youtube.com/@byclixmidia1008",
+                "https://www.youtube.com/@gamenologia",
+                "https://brasilbrasileiross.blogspot.com/",
+                "https://geocredibnkvitoria.com/",
+                "https://ocomerciobrasileironoticia.blogspot.com/2025/05/erp-profissional-para-empresas.html",
+                "https://jogosantigos472302513.wordpress.com/maquinas-vps-temos-todas-as-opcoes-de-maqinas-para-voce/",
+                "https://www.airbnb.com.br/r/saibvictore?s=6&t=061n0g",
+                "https://hostinger.com.br/?REFERRALCODE=1VICTOR444",
+                "https://www.youtube.com/watch?v=3yVwyfsq7ZQ",
+                "https://humorrandompiada02.vercel.app/",
+                "https://randomico02.vercel.app/",
+                "https://randomico02.netlify.app/",
+                "https://carro.wuaze.com/conferir/",
+                "https://arquivos.wuaze.com/conferir/",
+                "https://hostinger.com.br/?REFERRALCODE=1VICTOR444",
+                "https://geocredibnkvitoria.com/",
+                "https://jogosantigos472302513.wordpress.com/",
+                "https://brasilbrasileiross.blogspot.com/",
+                "https://ocomerciobrasileironoticia.blogspot.com/2025/05/erp-profissional-para-empresas.html",
+                "https://randomico02.vercel.app/",
+                "https://shoppingrandom01.vercel.app/",
+                "https://randomshopping.netlify.app/",
+                "https://vendaschamada.blogspot.com/",
+                "https://randomico02.netlify.app/",
+                "https://carro.wuaze.com/conferir/",
+                "https://arquivos.wuaze.com/conferir/",
+                "https://hostinger.com.br/?REFERRALCODE=1VICTOR444",
+                "https://geocredibnkvitoria.com/",
+                "https://jogosantigos472302513.wordpress.com/",
+                "https://brasilbrasileiross.blogspot.com/",
+                "https://ocomerciobrasileironoticia.blogspot.com/2025/05/erp-profissional-para-empresas.html",
+                "https://wa.me/5527999860405?text=Olá%2C%20tenho%20interesse%20em%20soluções%20de%20VPS%20e%20ERP.%20Pode%20me%20ajudar%3F",
+                "https://wa.me/5527999497001?text=ola%20quero%20saber%20sobre%20seguro%20e%20consorcio",
+                "https://nandomoura01random.vercel.app/",
+                "https://www.facebook.com/capixabadagemaes/",
+                "https://www.youtube.com/@gamenologia/videos",
+                "https://www.larissasaib.com.br/",
+                "https://www.instagram.com/geocredibnkvitoria/",
+                "https://www.youtube.com/watch?v=zjF_yzaEN9I&t=23s",
+                "https://www.youtube.com/watch?v=JbWY7nvpBA0",
+                "https://www.youtube.com/watch?v=qLsURrNcdf8",
+                "https://www.youtube.com/@byclixmidia1008",
+                "https://www.youtube.com/@gamenologia",
+                "https://jogosantigos472302513.wordpress.com/maquinas-vps-temos-todas-as-opcoes-de-maqinas-para-voce/",
+                "https://www.airbnb.com.br/r/saibvictore?s=6&t=061n0g",
+                "https://recomendadodia23.blogspot.com/",
+                "https://dokehost.blogspot.com/",
+                "https://www.dailymotion.com/victorsaib"
+
+
+        ];
+        const mudando=links[Math.floor(Math.random()* links.length)];
+        document.getElementById('novo').href=mudando;
+
+    }
+    setInterval(mudar,899);
+</script>
+</body>
+</html>
